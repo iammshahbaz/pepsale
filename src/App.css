@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh; 
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(149, 89, 89);
+}
+
+.swimlanes {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+}

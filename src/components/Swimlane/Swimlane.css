@@ -1,0 +1,20 @@
+.swimlane {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.swimlane h2 {
+    text-align: center;
+    color: #333;
+}
+
+.swimlane:hover {
+    background-color: #eaeaea;
+}
